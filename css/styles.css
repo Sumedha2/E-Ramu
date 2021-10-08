@@ -86,7 +86,6 @@ body{
 }
 #home::before{
   content: "";
-  background: <img src="photos/ramu waving.jpg" alt="e-ramu waving at you">;
   background: url('photos/bg.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0px;
@@ -119,7 +118,7 @@ body{
 #services-container::before{
   content: "";
   position: absolute;
-  background: url('/photos/cong-bg2\ \(2\).jpg') no-repeat center center/cover;
+  background: url('photos/cong-bg2\ \(2\).jpg') no-repeat center center/cover;
   width: 100%;
   height: 619px;
   z-index: -1;
