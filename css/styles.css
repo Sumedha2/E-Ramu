@@ -42,13 +42,13 @@ footer{
 }
 /*class selectors*/
 .services{
-  left: 40%
+  left: 35%
 }
 .login{
-  left: 50%;
+  left: 45%;
 }
 .sign-up{
-  left: 60%
+  left: 55%
 }
 .lines{
   text-decoration: underline;
