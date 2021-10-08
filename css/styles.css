@@ -86,7 +86,8 @@ body{
 }
 #home::before{
   content: "";
-  background: url('/photos/bg.jpg') no-repeat center center/cover;
+  background: <img src="photos/ramu waving.jpg" alt="e-ramu waving at you">;
+  background: url('photos/bg.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0px;
   left: 0px;
