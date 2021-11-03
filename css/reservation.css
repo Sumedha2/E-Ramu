@@ -1,0 +1,74 @@
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  padding-left: 76px;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+.reservations{
+  width: 700px;
+  height:400px;
+  margin: auto;
+  background-color: #ffd8d1;
+  color: black;
+  border-radius: 12px;
+  margin-top: 150px;
+}
+body{
+  font-size: 1.3rem;
+  font-family: 'Baloo Bhai', cursive;
+}
+h3{
+  padding: 30px;
+  font-size: 2rem;
+}
+p{
+  padding: 30px;
+}
+button{
+  height: 60px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff4524;
+  color: black;
+}
+button:hover{
+  background-color: black;
+  color: #ff4524;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+form{
+  padding-top: 50px;
+  text-align: justify;
+  clear: both;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+input{
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #000000;
+   width: 350px;
+}
+.book{
+  height: 600px;
+  width: 600px;
+}
+.check{
+  position: relative;
+  left: 100px;
+}
+h2{
+  padding-top: 30px;
+  padding-left: 180px;
+}

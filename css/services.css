@@ -5,9 +5,16 @@
     align-items: center;
     position: sticky;
     top: 0px;
-    
+
   }
-  
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
   #navbar::before{
     content: "";
     background-color: black;
@@ -18,22 +25,22 @@
     width: 100%;
     z-index: -1;
     opacity: 0.8;
-    
+
     /* opacity: 0.5; */
   }
 /* Navigation Bar: Logo and Image */
 #logo{
     margin: 10px 34px;
   }
-  
+
   #logo img{
     margin: 3px 6px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    
+
   }
-  
+
   /* Navigation Bar: List Styling */
 
 
@@ -41,14 +48,14 @@
     display: flex;
     font-family: 'Baloo Bhai', cursive;
   }
-  
-  
+
+
   #navbar ul li{
     /* color: white; */
     list-style: none;
     font-size: 1.3rem   ;
   }
-  
+
   #navbar ul li a{
     color: white;
     display: block;
@@ -56,12 +63,12 @@
     border-radius: 20px;
     text-decoration: none;
   }
-  
+
   #navbar ul li a:hover{
     color: black;
     background-color: white;
   }
-  
+
 
 
 
@@ -123,7 +130,7 @@
     width: 150px;
     height: 150px;
     transition: all ease-in-out 0.3s;
-    
+
 }
 
 /* One-by-one Box */
@@ -177,7 +184,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-1:hover ~ .box-2 {
     /* background-color: saddlebrown; */
@@ -223,7 +230,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-2:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -269,7 +276,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-3:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -314,7 +321,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-4:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -360,7 +367,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-5:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -407,7 +414,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-6:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -423,7 +430,7 @@
 .box-6:hover ~ .box-3 {
     /* background-color: saddlebrown; */
     margin-bottom: 7px;
-    
+
 }
 .box-6:hover ~ .box-4 {
     /* background-color: saddlebrown; */
@@ -455,7 +462,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-7:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -471,7 +478,7 @@
     /* background-color: saddlebrown; */
     margin-bottom: 7px;
     margin-left: 7px;
-    
+
 }
 .box-7:hover ~ .box-4 {
     /* background-color: saddlebrown; */
@@ -503,7 +510,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-8:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -519,7 +526,7 @@
     /* background-color: saddlebrown; */
     margin-bottom: 7px;
     margin-left: 7px;
-    
+
 }
 .box-8:hover ~ .box-4 {
     /* background-color: saddlebrown; */
@@ -551,7 +558,7 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
     /* background-color: skyblue; */
-}   
+}
 
 .box-9:hover ~ .box-1 {
     /* background-color: saddlebrown; */
@@ -567,7 +574,7 @@
 .box-9:hover ~ .box-3 {
     /* background-color: saddlebrown; */
     margin-bottom: 7px;
-    
+
 }
 .box-9:hover ~ .box-4 {
     /* background-color: saddlebrown; */

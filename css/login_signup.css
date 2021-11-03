@@ -16,7 +16,7 @@
 .login_box h3{
   position: absolute;
   left: 35%;
-  top: 20%;
+  top: 23%;
 }
 .login_box h3 a{
   color: rgb(89, 78, 78);
@@ -53,6 +53,19 @@
 .member a:active{
   color: grey;
 }
+.staff_management_login{
+  background-color: #e5f4fb;
+  color: black;
+}
+.staff_management_login button{
+  background-color: #3bb0de;
+  color: black;
+}
+.staff_management_login button:hover{
+  color: #3bb0de;
+  background-color: black;
+}
+
 body{
   font-family: 'Baloo Bhai', cursive;
   color:rgb(89, 78, 78);

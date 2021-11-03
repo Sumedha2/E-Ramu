@@ -1,0 +1,43 @@
+.staff_management{
+  margin: 150px auto;
+  background-color: #e5f4fb;
+  color: black;
+  width: 700px;
+  height: 450px;
+  border-radius: 9px;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+p{
+  margin: 30px;
+  }
+td {
+margin: 20px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+}
+button{
+  height: 60px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: #3bb0de;
+  color: black;
+}
+button:hover{
+  background-color:black;
+  color:  #3bb0de;
+}
+body{
+  font-size: 1.3rem;
+  font-family: 'Baloo Bhai', cursive;
+}
+h3{
+  padding-left: 30px;
+  padding-top: 30px;
+}
