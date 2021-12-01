@@ -131,16 +131,16 @@ body{
   padding: 34px;
   margin: 20px 120px;
   border-radius: 23px;
-  background: #e5e5e5;
+  background: rgb(235, 132, 132);
   transition: transform .2s;
 
 }
 
-#services .box:hover{
+//*#services .box:hover{
  transform: scale(1.15);
  background-color: rgb(235, 132, 132);
 
-}
+}*//
 
 
 

@@ -1,4 +1,8 @@
 /* Navigation Bar */
+body{
+  margin: 0px;
+  font-size: 1.2rem;
+}
 
 #navbar{
     display: flex;
@@ -53,7 +57,7 @@ a:visited{
   #navbar ul li{
     /* color: white; */
     list-style: none;
-    font-size: 1.3rem   ;
+    font-size: 1.3rem ;
   }
 
   #navbar ul li a{
@@ -599,4 +603,12 @@ a:visited{
 .box-9:hover ~ .box-8 {
     /* background-color: saddlebrown*/
     margin-right: 7px;
+}
+footer{
+  background: black;
+  color: white;
+  padding: 9px 20px;
+}
+.center{
+  text-align: center;
 }

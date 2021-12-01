@@ -1,10 +1,88 @@
+/* Navigation Bar */
+body{
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+  }
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+  #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+    /* opacity: 0.5; */
+  }
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+  }
+
+  #logo img{
+    margin: 3px 6px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+  }
+
+  /* Navigation Bar: List Styling */
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+  }
+
+
+  #navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem   ;
+  }
+
+  #navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+  }
+
+
+
 .login_box{
   width: 50%;
   height: 500px;
-  margin-top: 10%;
+  margin-top: 4.5%;
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 50px;
+  margin-bottom: 4.5%;
 }
 .login_box img{
   margin: 15px 36px;
@@ -56,6 +134,7 @@
 .staff_management_login{
   background-color: #e5f4fb;
   color: black;
+  margin-top: 13%;
 }
 .staff_management_login button{
   background-color: #3bb0de;
@@ -87,4 +166,15 @@ button{
 button:hover {
   color: buttonface;
   background-color: buttontext;
+}
+footer{
+  background: black;
+  font-family: serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: white;
+  padding: 9px 20px;
+}
+.center{
+  text-align: center;
 }
