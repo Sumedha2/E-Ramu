@@ -1,0 +1,602 @@
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+  }
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+  #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+    /* opacity: 0.5; */
+  }
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+  }
+
+  #logo img{
+    margin: 3px 6px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+  }
+
+  /* Navigation Bar: List Styling */
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+  }
+
+
+  #navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem   ;
+  }
+
+  #navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+  }
+
+
+
+
+/* Main Container */
+
+.m-container{
+    /* border: 2px solid red; */
+    display: grid;
+    padding: 20px;
+    /* position: absolute; */
+    justify-content: center;
+    justify-items: center;
+    margin: 1%;
+}
+
+#heading{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#sub-head{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 54px ;
+}
+
+/* Container */
+
+.container{
+    /* border: 2px solid red; */
+    display: grid;
+    padding: 20px;
+    /* position: absolute; */
+    justify-content: center;
+    justify-items: center;
+    margin: 10%;
+    /* grid-template-columns: 300px 100px 100px; */
+     /* grid-template-columns: 1fr 4fr 1fr; */
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 0.5rem;
+}
+
+
+/* Box */
+
+#box{
+    border: none;
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    padding: 0.5rem 0.5rem;
+    /* margin: 0.5rem; */
+    width: 150px;
+    height: 150px;
+    transition: all ease-in-out 0.3s;
+
+}
+
+/* One-by-one Box */
+
+.box-1{
+    background-color: skyblue;
+}
+
+.box-2{
+    background-color: tomato;
+
+}
+
+.box-3{
+    background-color: violet;
+
+}
+
+.box-4{
+    background-color: wheat;
+}
+
+.box-5{
+    background-color: turquoise;
+
+}
+
+.box-6{
+    background-color: yellowgreen;
+
+}
+
+.box-7{
+    background-color: thistle;
+}
+
+.box-8{
+    background-color: teal;
+
+}
+
+.box-9{
+    background-color: salmon;
+}
+
+
+/* BOX 1 HOVER */
+
+.box-1:hover{
+    /* border: 2px solid red; */
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-1:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+}
+.box-1:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+}
+.box-1:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-1:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-1:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-1:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-1:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-1:hover ~ .box-9 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+/* BOX 2 */
+
+.box-2:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-2:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-left    : 7px;
+}
+.box-2:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+}
+.box-2:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-2:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-2:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-2:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-2:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-2:hover ~ .box-9 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+/* BOX 3 */
+
+.box-3:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-3:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-left    : 7px;
+}
+.box-3:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+}
+.box-3:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-3:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-3:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-3:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-3:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-3:hover ~ .box-9 {
+    /* background-color: saddlebrown*/
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+/* BOX 4 */
+
+.box-4:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-4:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-bottom    : 7px;
+}
+.box-4:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+.box-4:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+.box-4:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+}
+.box-4:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+}
+.box-4:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+}
+.box-4:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.box-4:hover ~ .box-9 {
+    /* background-color: saddlebrown*/
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+/* BOX 5 */
+
+.box-5:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-5:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.box-5:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+
+}
+.box-5:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+.box-5:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+}
+.box-5:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+}
+.box-5:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.box-5:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+
+}
+.box-5:hover ~ .box-9 {
+    /* background-color: saddlebrown*/
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+/* BOX 6 */
+
+.box-6:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-6:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.box-6:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+
+}
+.box-6:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+
+}
+.box-6:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+}
+.box-6:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+}
+.box-6:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.box-6:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-top: 7px;
+    margin-right: 7px;
+
+}
+.box-6:hover ~ .box-9 {
+    /* background-color: saddlebrown*/
+    margin-top: 7px;
+}
+
+/* BOX 7 */
+
+.box-7:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-7:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+}
+.box-7:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+
+}
+.box-7:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+
+}
+.box-7:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+}
+.box-7:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+.box-7:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+.box-7:hover ~ .box-8 {
+    /* background-color: saddlebrown; */
+    margin-left: 7px;
+
+}
+.box-7:hover ~ .box-9 {
+    /* background-color: saddlebrown*/
+    margin-left: 7px;
+}
+
+/* BOX 8 */
+
+.box-8:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-8:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.box-8:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+
+}
+.box-8:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+
+}
+.box-8:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.box-8:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+}
+.box-8:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+.box-8:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+
+}
+.box-8:hover ~ .box-9 {
+    /* background-color: saddlebrown*/
+    margin-left: 7px;
+}
+
+/* BOX 9 */
+
+.box-9:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    /* background-color: skyblue; */
+}
+
+.box-9:hover ~ .box-1 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.box-9:hover ~ .box-2 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+
+}
+.box-9:hover ~ .box-3 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+
+}
+.box-9:hover ~ .box-4 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.box-9:hover ~ .box-5 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.box-9:hover ~ .box-6 {
+    /* background-color: saddlebrown; */
+    margin-bottom: 7px;
+
+}
+.box-9:hover ~ .box-7 {
+    /* background-color: saddlebrown; */
+    margin-right: 7px;
+
+}
+.box-9:hover ~ .box-8 {
+    /* background-color: saddlebrown*/
+    margin-right: 7px;
+}

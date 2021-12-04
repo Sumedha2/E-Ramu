@@ -1,0 +1,5 @@
+27.11.2021
+
+1.Change Login options for employees from
+Manager and Owner to others 
+

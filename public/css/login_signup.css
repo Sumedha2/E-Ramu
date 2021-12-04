@@ -1,0 +1,90 @@
+.login_box{
+  width: 50%;
+  height: 500px;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 50px;
+}
+.login_box img{
+  margin: 15px 36px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+}
+.login_box h3{
+  position: absolute;
+  left: 35%;
+  top: 23%;
+}
+.login_box h3 a{
+  color: rgb(89, 78, 78);
+  text-decoration: none;
+}
+.login_box p{
+  text-align: justify;
+  clear: both;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-size: 1.3rem;
+}
+.form{
+  text-align: justify;
+  clear: both;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.forgot{
+  font-size: .9rem;
+  font-family: monospace;
+  position: relative;
+  right: 123px;
+  color: grey;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px grey;
+}
+.login_box .member{
+  font-size: 1.15rem;
+}
+.member a{
+  color: black;
+}
+.member a:active{
+  color: grey;
+}
+.staff_management_login{
+  background-color: #e5f4fb;
+  color: black;
+}
+.staff_management_login button{
+  background-color: #3bb0de;
+  color: black;
+}
+.staff_management_login button:hover{
+  color: #3bb0de;
+  background-color: black;
+}
+
+body{
+  font-family: 'Baloo Bhai', cursive;
+  color:rgb(89, 78, 78);
+  font-size: 1.5rem;
+}
+input{
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #000000;
+   width: 350px;
+}
+button{
+  font-size: 1.5rem;
+  font-family: 'Baloo Bhai', cursive;
+  padding: 3px 22px;
+  border-radius: 20px;
+  border: none;
+}
+button:hover {
+  color: buttonface;
+  background-color: buttontext;
+}
