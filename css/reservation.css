@@ -11,12 +11,13 @@ a, a:hover, a:focus, a:active {
  }
 .reservations{
   width: 700px;
-  height:400px;
+  height: 400px;
   margin: auto;
   background-color: #ffd8d1;
   color: black;
   border-radius: 12px;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 body{
   font-size: 1.3rem;
@@ -61,8 +62,8 @@ input{
    width: 350px;
 }
 .book{
-  height: 600px;
-  width: 600px;
+  height: 700px;
+  width: 550px;
 }
 .check{
   position: relative;

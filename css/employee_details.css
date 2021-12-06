@@ -1,0 +1,59 @@
+body{
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-family: monospace;
+}
+table{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3bb0de;
+  width: 720px;
+  background-color: #e5f4fb;
+}
+td {
+    border-right: 1px solid #3bb0de;
+}
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+th{
+  border-bottom: 2px solid #3bb0de;
+}
+tr, td, th{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+tr, td, th{
+padding: 12px;
+}
+tr:first-child{
+  background-color: #3bb0de;
+}
+h2{
+  font-size: 1.2rem;
+  font-family: cursive;
+  margin-top: 200px;
+}
+button{
+  height: 60px;
+  width: 300px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: #3bb0de;
+  color: black;
+  margin-top: 30px;
+}
+button:hover{
+  background-color:black;
+  color:  #3bb0de;
+}

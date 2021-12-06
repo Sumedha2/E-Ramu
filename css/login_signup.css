@@ -135,6 +135,8 @@ a:visited{
   background-color: #e5f4fb;
   color: black;
   margin-top: 13%;
+  margin-bottom: 13%;
+  width: 700px;
 }
 .staff_management_login button{
   background-color: #3bb0de;
