@@ -1,0 +1,57 @@
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  padding-left: 76px;
+}
+.ngo_log{
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  background-color: #c2ffff;
+  color: coral;
+  border-radius: 12px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+body{
+  font-size: 1.3rem;
+  font-family: 'Baloo Bhai', cursive;
+}
+h3{
+  padding: 30px;
+  font-size: 2rem;
+}
+p{
+  padding: 30px;
+}
+button{
+  height: 60px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: teal;
+  color: coral;
+}
+button:hover{
+  background-color: coral;
+  color: teal;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+td{
+  position: relative;
+  left: 100px;
+}
+.updated{
+  color: black;
+  padding-left: 20px;
+}
+.updated h2{
+  padding-top: 30px;
+}

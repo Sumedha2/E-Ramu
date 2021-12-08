@@ -1,0 +1,68 @@
+.view_log{
+  font-family: 'Quicksand', sans-serif;;
+  font-size: 1.1rem;
+  margin-top: 200px;
+  margin-bottom:101px;
+}
+table{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: coral;
+  width: 800px;
+  background-color: #c2ffff;
+}
+td {
+    border-right: 1px solid coral;
+}
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+th{
+  border-bottom: 2px solid coral;
+  color: coral;
+}
+tr, td, th{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+tr, td, th{
+padding: 12px;
+}
+tr{
+  padding-bottom: 15px;
+}
+tr:first-child{
+  background-color: teal;
+}
+h2{
+  font-size: 1.2rem;
+  font-family: cursive;
+  margin-top: 200px;
+  text-align: center;
+}
+button{
+  margin: auto;
+  height: 60px;
+  width: 300px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: teal;
+  color: coral;
+  margin-top: 30px;
+}
+button:hover{
+  background-color:coral;
+  color:  teal;
+}
+h2{
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 1.6rem;
+}
