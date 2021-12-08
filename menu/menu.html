@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>Menu</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="menu.css">
+<script src="menu.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Amatic SC", sans-serif
+    }
+</style>
+
+<body>
+    <!-- Start Content -->
+    <div id="home" class="content">
+
+        <!-- Menu -->
+        <div id="menu" class="container black xxlarge padding-64">
+            <h1 class="center jumbo padding-32">THE MENU</h1>
+            <div class="row center border border-dark-grey">
+                <a href="#main_course">
+                    <div class="third padding-large violet">Main Course</div>
+                </a>
+                <a href="#starters">
+                    <div class="third padding-large hover-violet">Starters</div>
+                </a>
+                <a href="#desserts">
+                    <div class="third padding-large hover-violet">Desserts</div>
+                </a>
+            </div>
+
+            <div id="#main_course" class="container white padding-32">
+
+                <h1><b>Paneer Tikka</b> <span class="right tag dark-grey round">250rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck" onclick="myFunction()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Special cottage cheese cooked in clay oven</p>
+
+                <hr>
+                <h1><b>Dal Makhani</b> <span class="right tag dark-grey round">200rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck2" onclick="myFunction2()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id2" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Rich,black lentils cooked with assorted spices</p>
+
+                <hr>
+                <h1><b>Dum Aloo</b> <span class="right tag dark-grey round">200rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck3" onclick="myFunction3()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id3" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Stuffed potatoes in masala</p>
+
+                <hr>
+                <h1><b>Mix Vege</b> <span class="right tag dark-grey round">200rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck4" onclick="myFunction4()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id4" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Seasonal vegetables tossed with ginger and garlic</p>
+
+                <hr>
+                <h1><b>Palak Paneer</b> <span class="tag red round">Hot!</span>
+                    <span class="right tag dark-grey round">220rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck5" onclick="myFunction5()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id5" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Spinach and cottage cheese</p>
+
+                <hr>
+                <h1><b>Plain Rice</b> <span class="right tag dark-grey round">200rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck6" onclick="myFunction6()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id6" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">A cd dcd dc</p>  
+            </div>
+
+            <h1 id="starters" class="center jumbo padding-32">STARTERS</h1>
+            <div class="container white padding-32">
+
+                <h1><b>Crispy Corn</b> <span class="tag grey round">Popular</span>
+                    <span class="right tag dark-grey round">140rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck7" onclick="myFunction7()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id7" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">dasdssgfgffgfgf dfd</p>
+
+                <hr>
+                <h1><b>Spring Rolls</b> <span class="right tag dark-grey round">100rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck8" onclick="myFunction8()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id8" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Rdfdfd dfdf eee</p>
+
+                <hr>
+                <h1><b>Potted Crab</b> <span class="right tag dark-grey round">90rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck9" onclick="myFunction9()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id9" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">sdfs dfd dfd </p>
+            </div>
+
+            <h1 id="desserts" class="center jumbo padding-32">DESSERTS</h1>
+            <div class="container white padding-32">
+
+                <h1><b>Today's Soup</b> <span class="tag grey round">Seasonal</span>
+                    <span class="right tag dark-grey round">90rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck10" onclick="myFunction10()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id10" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">Ask the waiter</p>
+
+                <hr>
+                <h1><b>Caramel Carnival</b> <span class="right tag dark-grey round">140rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck11" onclick="myFunction11()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id11" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">adfdf dfd d fd</p>
+
+                <hr>
+                <h1><b>Appple Pie</b> <span class="right tag dark-grey round">130rs</span>
+                    <label class="check_container right ">ADD
+                        <input type="checkbox"  id="myCheck12" onclick="myFunction12()">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="quantity_id12" class="quantity_css right" for="quantity" style="display:none">Quantity:
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </label>
+                </h1>
+                <p class="text-grey">dxfvxxx dfdf dfdfe</p>
+            </div>
+        </div>
+
+        <!-- End Content -->
+    </div>
+</body>
+
+</html>
