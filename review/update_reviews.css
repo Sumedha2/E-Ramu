@@ -1,0 +1,40 @@
+h2{
+  margin-top: 200px;
+  font-family: 'Baloo Bhai', cursive;
+}
+button{
+  height: 60px;
+  width: 300px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: #7a6f59;
+  color: #faeed9;
+  margin-top: 30px;
+}
+button:hover{
+  background-color:#faeed9;
+  color:  #7a6f59;
+}
+form{
+  padding-top: 50px;
+  clear: both;
+}
+input{
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #494235;
+   width: 350px;
+}
+.review_update{
+  font-family: 'Baloo Bhai', cursive;
+  margin-left:  auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: wheat;
+  width: 450px;
+  height: 800px;
+  border-radius: 15px;
+}

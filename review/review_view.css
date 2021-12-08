@@ -1,0 +1,41 @@
+.review_options{
+  width: 600px;
+  height: 350px;
+  margin: auto;
+  background-color: wheat;
+  color: #494235;
+  border-radius: 12px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+body{
+  font-size: 1.3rem;
+  font-family: 'Baloo Bhai', cursive;
+}
+p{
+  padding: 30px;
+  text-align: center;
+}
+button{
+  height: 60px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 20px;
+  border: none;
+  background-color: #7a6f59;
+  color: #faeed9;
+}
+button:hover{
+  background-color: #faeed9;
+  color: #7a6f59;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2{
+  padding-top: 30px;
+  text-align: center;
+}
