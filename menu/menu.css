@@ -38,7 +38,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .hide{display:none!important}.show-block,.show{display:block!important}.show-inline-block{display:inline-block!important}
 @media (max-width:1205px){.auto{max-width:95%}}
 @media (max-width:600px){.modal-content{margin:0 10px;width:auto!important}.modal{padding-top:30px}
-.dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}	
+.dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}
 .hide-small{display:none!important}.mobile{display:block;width:100%!important}.bar-item.mobile,.dropdown-hover.mobile,.dropdown-click.mobile{text-align:center}
 .dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button{width:100%}}
 @media (max-width:768px){.modal-content{width:500px}.modal{padding-top:50px}}
@@ -192,7 +192,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     -ms-user-select: none;
     user-select: none;
   }
-  
+
   /* Hide the browser's default checkbox */
   .check_container input {
     position: absolute;
@@ -201,7 +201,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     height: 0;
     width: 0;
   }
-  
+
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
@@ -211,29 +211,29 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     width: 25px;
     background-color: #eee;
   }
-  
+
   /* On mouse-over, add a grey background color */
   .check_container:hover input ~ .checkmark {
     background-color: #ccc;
   }
-  
+
   /* When the checkbox is checked, add a blue background */
   .check_container input:checked ~ .checkmark {
     background-color: #2196F3;
   }
-  
+
   /* Create the checkmark/indicator (hidden when not checked) */
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
+
   /* Show the checkmark when checked */
   .check_container input:checked ~ .checkmark:after {
     display: block;
   }
-  
+
   /* Style the checkmark/indicator */
   .check_container .checkmark:after {
     left: 9px;
@@ -253,4 +253,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
       font-size: 0.7em;
       padding-right: 1rem;
 
+  }
+  /*add modify buttons*/
+  .add{
+    margin-top: 70px;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 70px;
+    font-size: 1.6rem;
   }
